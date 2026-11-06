@@ -1,0 +1,8 @@
+pip install pyinstaller
+
+pyinstaller --onefile modbus_tcp_test_5_working_exe.py
+
+
+cd D:\001_Projects\015_modbus test\dist
+modbus_tcp_test_5_working_exe.exe
+
